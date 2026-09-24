@@ -1,8 +1,6 @@
 # Analyzing Operational Efficiency and Predicting Breakdown Risk and Shipment Weight in the Warehouse Network of Supply Flow FMCG Solutions
 
-**Student:** Lakshmi M G · **USN:** 232VBBR00036
-**Elective:** Data Science and Analytics · **Institution:** JAIN (Deemed-to-be University), Online
-
+**Created By:** Lakshmi M G · 
 ---
 
 ## What this project does
@@ -17,7 +15,6 @@ to a single snapshot of the company's warehouse records:
 | 2 | Estimate warehouse breakdown risk | **Classification** | `wh_breakdown_l3m` |
 | 3 | Recommend a suitable shipment weight per warehouse, and compare volumes across zones | **Regression** | `product_wg_ton` |
 
-Full statement of scope, objectives and exclusions: [`docs/00_project_brief.md`](docs/00_project_brief.md).
 
 ---
 
@@ -37,14 +34,6 @@ and that result is cited in the markdown cell directly above the code.
 
 ## Setup
 
-**Already done on this machine.** Python 3.12 is installed, `.venv312` is built, all packages are
-installed, and the `SupplyFlow Python 3.12` Jupyter kernel is registered. To start working:
-
-```bash
-source .venv312/bin/activate
-jupyter lab
-```
-
 In every notebook, select the **SupplyFlow Python 3.12** kernel before running.
 
 <details>
@@ -59,8 +48,7 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name supplyflow --display-name "SupplyFlow Python 3.12"
 ```
 
-Python 3.12 rather than the machine default 3.14, chosen for library compatibility. The full stack
-was verified on 3.12.10; it was not tested on 3.14.
+Prefered interpreter: Python 3.12.0
 </details>
 
 ### Installed versions
@@ -108,7 +96,7 @@ The three objectives are independent of each other. Each one reads only from
 
 ```
 BBA Project/
-├── docs/                        project brief, data dictionary, data quality report, decision log
+├── docs/                         data dictionary, data quality report
 ├── src/common.py                paths, file loading, plot style — nothing analytical
 ├── data/
 │   ├── raw/                     source .xlsx, never edited
@@ -123,24 +111,3 @@ BBA Project/
 ├── Obj_2_Classification/        same five sub-folders
 └── Obj_3_Regression/            same five sub-folders
 ```
-
----
-
-## Key documents
-
-| File | What it holds |
-|---|---|
-| [`docs/00_project_brief.md`](docs/00_project_brief.md) | objectives, scope, methodology and exclusions, from the approved scope |
-| [`docs/01_data_dictionary.md`](docs/01_data_dictionary.md) | all 24 source columns with business definitions |
-| [`docs/02_data_quality_report.md`](docs/02_data_quality_report.md) | findings from notebook 00 — filled in as that notebook runs |
-| [`docs/03_decision_log.md`](docs/03_decision_log.md) | every non-obvious decision, with the evidence behind it |
-
----
-
-## Source files
-
-| File | Role |
-|---|---|
-| Submitted project brief DOCX / PDF | approved project brief |
-| `Data Description.docx` | business definition of each column |
-| `SupplyFlow FMCG Solutions.xlsx` | the dataset (copied to `data/raw/`) |
