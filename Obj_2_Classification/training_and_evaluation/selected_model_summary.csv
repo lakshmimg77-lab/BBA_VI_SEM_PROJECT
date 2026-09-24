@@ -1,0 +1,2 @@
+model,selected_by,tuned_by,best_cv_macro_f1,n_estimators,learning_rate,n_trials
+AdaBoost,PyCaret NB24,Optuna NB25,0.6197120058351573,298,1.9348286736835805,40

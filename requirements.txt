@@ -1,0 +1,28 @@
+# SupplyFlow FMCG — core stack
+# Install into a Python 3.12 virtual environment (see README.md).
+
+# data handling
+pandas
+numpy
+scipy
+openpyxl          # required by pandas to read the .xlsx source file
+
+# statistics
+statsmodels       # VIF for the multicollinearity check (NB 31); OLS summaries
+
+# modelling
+scikit-learn
+xgboost
+catboost
+optuna            # hyperparameter tuning
+pycaret==4.0.0a8  # model-family screening in NB 24 and NB 34; pinned for Python 3.12
+imbalanced-learn  # SMOTE / undersampling for the class-imbalance check (NB 24)
+
+# visualisation
+matplotlib
+seaborn
+plotly
+
+# notebook environment
+jupyterlab
+ipykernel

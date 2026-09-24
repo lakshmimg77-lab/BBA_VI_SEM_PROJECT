@@ -1,0 +1,6 @@
+candidate,business_idea,source_columns,r2_from_source_columns
+warehouse_age,age is easier to read than establishment year,wh_est_year,1.0
+operating_problem_total,single count of reported operating problems,"storage_issue_reported_l3m, wh_breakdown_l3m, transport_issue_l1y",1.0
+shops_per_distributor,market load per distributor,"retail_shop_num, distributor_num",0.842906675198198
+staff_per_distributor,staff intensity relative to distribution network,"workers_num, distributor_num",0.8400184213008729
+infrastructure_score,simple site-readiness score,"electric_supply, temp_reg_mach, flood_proof, flood_impacted",1.0

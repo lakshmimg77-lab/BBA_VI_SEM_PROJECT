@@ -1,0 +1,18 @@
+condition,kind,warehouses_used,p (ANOVA or chi-square),p (Kruskal-Wallis),effect size,effect,size,largest difference across segments 1-4
+wh_est_year,numeric,12646,0.0,0.0,eta squared,0.3658345151156648,large,median 2005 to 2017
+temp_reg_mach,0/1,24092,6.096599773362923e-208,,Cramér's V,0.1996882502602382,small,temp_reg_mach = 0: 57.8% to 82.2%
+approved_wh_govt_certificate,categorical,24092,1.5833973632653626e-96,,Cramér's V,0.0820508066117152,small,approved_wh_govt_certificate = A+: 10.7% to 21.1%
+Location_type,categorical,24092,1.559097552056889e-13,,Cramér's V,0.05101367307612879,negligible,Location_type = Rural: 90.5% to 93.9%
+wh_owner_type,categorical,24092,0.12231859093519204,,Cramér's V,0.01550172721446794,negligible,wh_owner_type = Company Owned: 53.5% to 55.3%
+zone,categorical,24092,0.39556914079377664,,Cramér's V,0.011443157890251979,negligible,zone = West: 31.0% to 32.8%
+WH_regional_zone,categorical,24092,0.9171577860920976,,Cramér's V,0.010626241831058668,negligible,WH_regional_zone = Zone 2: 11.1% to 12.2%
+WH_capacity_size,categorical,24092,0.5386935474865833,,Cramér's V,0.010227363977310874,negligible,WH_capacity_size = Large: 40.2% to 41.8%
+electric_supply,0/1,24092,0.481758744033815,,Cramér's V,0.010113916824605778,negligible,electric_supply = 0: 34.0% to 35.4%
+flood_impacted,0/1,24092,0.5764981916743457,,Cramér's V,0.0090663596509996,negligible,flood_impacted = 1: 9.5% to 10.2%
+flood_proof,0/1,24092,0.6066988345554525,,Cramér's V,0.008734487300907217,negligible,flood_proof = 1: 5.2% to 5.7%
+distributor_num,numeric,24092,0.009502652499411911,0.00936184836776462,eta squared,0.00047543370542767947,negligible,median 41 to 43
+dist_from_hub,numeric,24092,0.043867018099343444,0.04442716133724905,eta squared,0.0003364610052290069,negligible,median 162 to 167
+Competitor_in_mkt,numeric,24092,0.06275482037839214,0.1226538539943189,eta squared,0.0003032575238703141,negligible,median 3 to 3
+workers_num,numeric,24092,0.06498362713120774,0.17446118976431352,eta squared,0.0003000027768611952,negligible,median 28 to 28
+govt_check_l3m,numeric,24092,0.10529710384312813,0.07528279179235328,eta squared,0.0002545872393240071,negligible,median 19 to 21
+retail_shop_num,numeric,24092,0.2015423080049524,0.1712917376302559,eta squared,0.00019191625887213793,negligible,median 4849 to 4877

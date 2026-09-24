@@ -1,0 +1,6 @@
+candidate,sources,r2_from_sources,passes_T2,min,median,max
+warehouse_age,wh_est_year,1.0,False,0.0,14.0,27.0
+tons_per_worker,product_wg_ton + workers_num,0.9169188136100435,False,34.19565217391305,760.1818181818182,3934.1428571428573
+storage_issues_per_1000t,storage_issue_reported_l3m + product_wg_ton,0.600826213826128,True,0.0,0.7814026176987693,0.9904258831297458
+shops_per_distributor,retail_shop_num + distributor_num,0.8432378427402573,True,27.753623188405797,117.39209164818921,596.8
+flood_unprotected,flood_impacted + flood_proof,0.8869636546006345,True,0.0,0.0,1.0

@@ -1,0 +1,30 @@
+feature,source_column,role,encoding,scale_for_linear_svr
+storage_issue_reported_l3m,storage_issue_reported_l3m,period measure,"numeric, as recorded",True
+wh_breakdown_l3m,wh_breakdown_l3m,period measure,"numeric, as recorded",True
+num_refill_req_l3m,num_refill_req_l3m,period measure,"numeric, as recorded",True
+govt_check_l3m,govt_check_l3m,period measure,"numeric, as recorded",True
+transport_issue_l1y,transport_issue_l1y,period measure,"numeric, as recorded",True
+wh_est_year,wh_est_year,characteristic,"numeric, as recorded",True
+workers_num,workers_num,characteristic,"numeric, as recorded",True
+dist_from_hub,dist_from_hub,characteristic,"numeric, as recorded",True
+Competitor_in_mkt,Competitor_in_mkt,characteristic,"numeric, as recorded",True
+retail_shop_num,retail_shop_num,characteristic,"numeric, as recorded",True
+distributor_num,distributor_num,characteristic,"numeric, as recorded",True
+electric_supply,electric_supply,characteristic,"numeric, as recorded",False
+temp_reg_mach,temp_reg_mach,characteristic,"numeric, as recorded",False
+flood_proof,flood_proof,characteristic,"numeric, as recorded",False
+flood_impacted,flood_impacted,characteristic,"numeric, as recorded",False
+is_unrated_warehouse,is_unrated_warehouse,characteristic,"numeric, as recorded",False
+wh_est_year_missing,wh_est_year_missing,recording flag,"numeric, as recorded",False
+certificate_grade,approved_wh_govt_certificate,characteristic,ordinal,True
+capacity_size,WH_capacity_size,characteristic,ordinal,True
+Location_type_Urban,Location_type,characteristic,one-hot / 0-1,False
+wh_owner_type_Rented,wh_owner_type,characteristic,one-hot / 0-1,False
+zone_East,zone,characteristic,one-hot / 0-1,False
+zone_South,zone,characteristic,one-hot / 0-1,False
+zone_West,zone,characteristic,one-hot / 0-1,False
+WH_regional_zone_Zone_1,WH_regional_zone,characteristic,one-hot / 0-1,False
+WH_regional_zone_Zone_2,WH_regional_zone,characteristic,one-hot / 0-1,False
+WH_regional_zone_Zone_3,WH_regional_zone,characteristic,one-hot / 0-1,False
+WH_regional_zone_Zone_4,WH_regional_zone,characteristic,one-hot / 0-1,False
+WH_regional_zone_Zone_5,WH_regional_zone,characteristic,one-hot / 0-1,False

@@ -1,0 +1,4 @@
+model,treatment,macro_f1_mean,macro_f1_std
+AdaBoost,no_resampling,0.6126972051415465,0.015514186738099121
+AdaBoost,random_oversampling,0.6013393746557465,0.006369434500063261
+AdaBoost,random_undersampling,0.6013393746557465,0.006369434500063261

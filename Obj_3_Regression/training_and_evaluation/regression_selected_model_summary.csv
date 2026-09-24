@@ -1,0 +1,2 @@
+model,selected_by,tuned_by,best_cv_r2,iterations,depth,learning_rate,l2_leaf_reg,n_trials
+CatBoostRegressor,PyCaret NB34,Optuna NB35,0.994489965748838,400,6,0.04050877561592262,1.797561065881625,15

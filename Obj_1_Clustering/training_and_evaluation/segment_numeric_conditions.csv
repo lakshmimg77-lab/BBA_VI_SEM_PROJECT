@@ -1,0 +1,9 @@
+,segment 0,segment 1,segment 2,segment 3,segment 4,rated network,whole network
+median wh_est_year  (recorded years only),2022.0,2017.0,2009.0,2005.0,2005.0,2009.0,2009.0
+median workers_num,28.0,28.0,28.0,28.0,28.0,28.0,28.0
+median dist_from_hub,166.0,164.0,167.0,162.0,163.0,164.0,164.0
+median Competitor_in_mkt,3.0,3.0,3.0,3.0,3.0,3.0,3.0
+median retail_shop_num,4887.0,4877.0,4851.0,4852.5,4849.0,4858.5,4859.0
+median distributor_num,43.0,42.0,43.0,41.0,43.0,42.0,42.0
+median govt_check_l3m,19.0,21.0,21.0,20.0,19.0,21.0,21.0
+% with a recorded establishment year,52.092511013215855,57.833253320531284,25.435540069686414,21.6299416720674,87.22069776558212,52.49045326249377,52.476

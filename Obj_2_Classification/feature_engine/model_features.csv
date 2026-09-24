@@ -1,0 +1,29 @@
+feature,origin,source_columns,role,scale_for_lr_svm,characteristics_only_set
+storage_issue_reported_l3m,NB 22,storage_issue_reported_l3m,period measure,True,False
+num_refill_req_l3m,NB 22,num_refill_req_l3m,period measure,True,False
+govt_check_l3m,NB 22,govt_check_l3m,period measure,True,False
+transport_issue_l1y,NB 22,transport_issue_l1y,period measure,True,False
+wh_est_year,NB 22,wh_est_year,characteristic,True,True
+workers_num,NB 22,workers_num,characteristic,True,True
+dist_from_hub,NB 22,dist_from_hub,characteristic,True,True
+Competitor_in_mkt,NB 22,Competitor_in_mkt,characteristic,True,True
+retail_shop_num,NB 22,retail_shop_num,characteristic,True,True
+distributor_num,NB 22,distributor_num,characteristic,True,True
+electric_supply,NB 22,electric_supply,characteristic,False,True
+temp_reg_mach,NB 22,temp_reg_mach,characteristic,False,True
+flood_proof,NB 22,flood_proof,characteristic,False,True
+flood_impacted,NB 22,flood_impacted,characteristic,False,True
+is_unrated_warehouse,NB 22,is_unrated_warehouse,characteristic,False,True
+wh_est_year_missing,NB 22,wh_est_year_missing,recording flag,False,True
+certificate_grade,NB 22,approved_wh_govt_certificate,characteristic,True,True
+capacity_size,NB 22,WH_capacity_size,characteristic,True,True
+Location_type_Urban,NB 22,Location_type,characteristic,False,True
+wh_owner_type_Rented,NB 22,wh_owner_type,characteristic,False,True
+zone_East,NB 22,zone,characteristic,False,True
+zone_South,NB 22,zone,characteristic,False,True
+zone_West,NB 22,zone,characteristic,False,True
+WH_regional_zone_Zone_1,NB 22,WH_regional_zone,characteristic,False,True
+WH_regional_zone_Zone_2,NB 22,WH_regional_zone,characteristic,False,True
+WH_regional_zone_Zone_3,NB 22,WH_regional_zone,characteristic,False,True
+WH_regional_zone_Zone_4,NB 22,WH_regional_zone,characteristic,False,True
+WH_regional_zone_Zone_5,NB 22,WH_regional_zone,characteristic,False,True

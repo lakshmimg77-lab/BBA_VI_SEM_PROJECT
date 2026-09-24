@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+venv*/
+env/
+ENV/
+.env/
+virtualenv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model library run logs
+catboost_info/
+logs.log
+
+# Secrets and local environment variables
+.env
+.env.*
+
+# Office lock/temp files created while a document is open
+~$*
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

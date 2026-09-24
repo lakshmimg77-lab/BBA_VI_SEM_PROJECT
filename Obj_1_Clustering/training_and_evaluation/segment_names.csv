@@ -1,0 +1,6 @@
+segment,warehouses,% of network,name,tier,defined_by,robust_to_method
+0,908,3.63,"Newly commissioned, not yet rated",Unrated,rule: certificate Unrated,by definition
+1,6249,25.0,"Low volume, few breakdowns",Low volume,K-Means,largely (76% kept together by Ward)
+2,4018,16.07,Transport-problem,Transport problems,K-Means,yes (86% kept together by Ward)
+3,6172,24.69,High volume — rarely refilled,High volume,K-Means,tier yes; split from segment 4 is K-Means-specific
+4,7653,30.61,High volume — frequently refilled,High volume,K-Means,tier yes; split from segment 3 is K-Means-specific
