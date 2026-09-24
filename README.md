@@ -1,6 +1,6 @@
 # Analyzing Operational Efficiency and Predicting Breakdown Risk and Shipment Weight in the Warehouse Network of Supply Flow FMCG Solutions
 
-**Created By:** Lakshmi M G · 
+**Created By:** Lakshmi M G  
 ---
 
 ## What this project does
